@@ -1,0 +1,58 @@
+html {
+    background-color: #3867d6;
+}
+
+.container{
+    width: 300px;
+    margin: 30px auto;
+    background: #434343;
+    border: 1px solid #222;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.container h1{
+    text-align: center;
+    color: cornsilk;
+}
+
+#input{
+    width: 99%;
+    height: 40px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#input-submit{
+    width: 45%;
+    height: 40px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    background: blue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.select{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 3px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#result{
+    background: darkgray;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#result p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
