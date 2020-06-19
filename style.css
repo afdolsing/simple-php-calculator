@@ -1,7 +1,6 @@
 html {
     background-color: #3867d6;
 }
-
 .container{
     width: 300px;
     margin: 30px auto;
@@ -10,12 +9,10 @@ html {
     border-radius: 5px;
     padding: 15px;
 }
-
 .container h1{
     text-align: center;
     color: cornsilk;
 }
-
 #input{
     width: 99%;
     height: 40px;
@@ -24,7 +21,6 @@ html {
     font-size: 18px;
     font-weight: bold;
 }
-
 #input-submit{
     width: 45%;
     height: 40px;
@@ -43,14 +39,12 @@ html {
     border-radius: 10px;
     font-weight: bold;
 }
-
 #result{
     background: darkgray;
     height: 70px;
     width: 100%;
     border-radius: 10px;
 }
-
 #result p{
     text-align: center;
     font-weight: bold;

@@ -1,7 +1,7 @@
 <?php
 
-// jika sudah di click
-if(isset($_POST['click'])){
+// jika isset 'save' dari form index ada nilainya
+if(isset($_POST['save'])){
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
     $option = $_POST['option'];
