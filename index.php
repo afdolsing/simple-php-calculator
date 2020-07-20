@@ -10,7 +10,7 @@
 
 <body>
   <div class="container">
-    <form action="index.php" method="POST">
+    <form method="POST">
       <h1>Calculator</h1>
       <input type="number" name="input1" id="input" required>
       <input type="number" name="input2" id="input" required>
