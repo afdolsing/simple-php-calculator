@@ -1,6 +1,6 @@
 <?php
 /*
-    apakah ada atribut dengan nama 'save' dari form di index.php.
+    apakah ada atribut dengan nama 'save' yang dikirim dari form menggunakan method=POST
     cek menggunakan isset()
     jika ada, proses script bawahnya
 */
