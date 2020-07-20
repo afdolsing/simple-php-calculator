@@ -12,8 +12,8 @@
   <div class="container">
     <form action="index.php" method="POST">
       <h1>Calculator</h1>
-      <input type="number" name="num1" id="input" required>
-      <input type="number" name="num2" id="input" required>
+      <input type="number" name="input1" id="input" required>
+      <input type="number" name="input2" id="input" required>
       <select name="option" class="select">
         <option name="option" value="+">add (+)</option>
         <option name="option" value="-">subtract (-)</option>
@@ -23,8 +23,8 @@
       <button type="submit" name="save" id="input-submit">Calculate</button>
 
       <div id="result">
-        <!-- tamplikan hasil dari proses.php  -->
-        <p><?php include("process.php") ?></p>
+        <!-- tamplikan hasil dari process.php  -->
+        <p><?php include "process.php" ?></p>
       </div>
     </form>
   </div>

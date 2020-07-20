@@ -1,9 +1,12 @@
 <?php
-
-// jika isset 'save' dari form index ada nilainya
+/*
+    apakah ada variabel dengan nama 'save' dari form di index.php.
+    cek menggunakan isset()
+    jika ada jalankan script bawahnya
+*/
 if(isset($_POST['save'])){
-    $num1 = $_POST['num1'];
-    $num2 = $_POST['num2'];
+    $num1 = $_POST['input1'];
+    $num2 = $_POST['input2'];
     $option = $_POST['option'];
 
     switch($option){
@@ -17,11 +20,11 @@ if(isset($_POST['save'])){
         break;
         case '*':
             $result = $num1 * $num2;
-            echo "$num1 * $num2 = $result";
+            echo "$num1 x $num2 = $result";
         break;
         case '/':
             $result = $num1 / $num2;
-            echo "$num1 / $num2 = $result";
+            echo "$num1 : $num2 = $result";
         break;
     }
 }
