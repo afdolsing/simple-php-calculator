@@ -1,8 +1,8 @@
 <?php
 /*
-    apakah ada variabel dengan nama 'save' dari form di index.php.
+    apakah ada atribut dengan nama 'save' dari form di index.php.
     cek menggunakan isset()
-    jika ada jalankan script bawahnya
+    jika ada, proses script bawahnya
 */
 if(isset($_POST['save'])){
     $num1 = $_POST['input1'];

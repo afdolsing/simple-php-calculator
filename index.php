@@ -24,7 +24,7 @@
 
       <div id="result">
         <!-- tamplikan hasil dari process.php  -->
-        <p><?php include "process.php" ?></p>
+        <p><?php include("process.php") ?></p>
       </div>
     </form>
   </div>
